@@ -1,0 +1,36 @@
+hotel_booking_analytics/
+│
+├── data/
+│   ├── hotel_booking.csv
+│   └── data_info.py                  # Data documentation and schema
+│
+├── src/
+│   ├── __init__.py
+│   ├── config.py                     # Configuration parameters
+│   ├── data_processor.py             # Data preprocessing and feature engineering
+│   ├── market_analyzer.py            # Market regime detection and analysis
+│   ├── network_analyzer.py           # Network effect analysis
+│   ├── risk_manager.py              # Risk management system
+│   ├── price_optimizer.py           # Pricing optimization system
+│   ├── booking_predictor.py         # Booking prediction models
+│   └── utils.py                     # Utility functions
+│
+├── models/
+│   ├── adaptive_optimizer.py        # AdaptiveHotelOptimizer implementation
+│   ├── multi_objective.py          # Multi-objective optimization system
+│   ├── risk_aware_manager.py       # RiskAwareBookingManager implementation
+│   ├── network_effects.py          # BookingNetworkAnalyzer implementation
+│   └── adaptive_pricing.py         # AdaptivePricingSystem implementation
+│
+├── evaluation/
+│   ├── model_evaluator.py          # Model evaluation metrics
+│   ├── performance_tracker.py      # Performance tracking
+│   └── visualization.py            # Visualization utilities
+│
+├── experiments/
+│   ├── baseline_experiment.py      # Baseline model experiments
+│   ├── advanced_experiment.py      # Advanced model experiments
+│   └── comparison_experiment.py    # Model comparison experiments
+│
+├── main.py                         # Main execution file
+└── requirements.txt                # Project dependencies
